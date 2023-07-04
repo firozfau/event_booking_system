@@ -1,0 +1,97 @@
+.main-wrapper{
+    width: 90%;
+    height: auto;
+    min-height: 100vh;
+    margin: 0 auto;
+
+}
+#eventDataTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+#eventDataTable th{
+    background: aliceblue;
+    color: black;
+}
+#eventDataTable th, #eventDataTable td {
+    text-align: left;
+    padding: 4px;
+    border: 1px solid #ccc
+}
+#eventDataTable tr.header, #eventDataTable tr:hover {
+    background-color: #f1f1f1;
+}
+.tfoot-total-amt-text{
+    text-align: right !important;
+    border: none !important
+}
+td#total_perticipent_fee {
+    border: none !important;
+    padding-left: 10px;
+    font-weight: bold
+}
+.action-wrapper{
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-top: 50px
+}
+#searchKewoard {
+    background-image: url('../img/search_icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 65%;
+    font-size: 16px;
+    padding: 8px 25px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    float: left
+}
+.entryDataButton{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    float: right
+}
+.deleteAllData{
+    font-weight: bold;
+    color:red
+}
+.insertAllData{
+    font-weight: bold;
+    color:black
+}
+
+/*--------- modal code-------------*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 150px;
+    height: 120px;
+    background-image: url('../img/loader.gif');
+    background-repeat: no-repeat;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
